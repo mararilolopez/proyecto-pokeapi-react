@@ -1,0 +1,70 @@
+.card {
+  border-bottom-style: dotted;
+  border-bottom-width: 3px;
+  margin: 10px;
+}
+
+.habilidades {
+  font-weight: bold;
+}
+
+.css-1oqv2c0-MuiPaper-root-MuiCard-root {
+  box-shadow: 0px 2px 1px -1px rgba(0, 22, 89, 0.45),
+    0px 1px 1px 0px rgba(1, 19, 119, 0.46),
+    0px 1px 3px 0px rgba(0, 15, 102, 0.52) !important;
+  height: 350px !important;
+  img {
+    width: 250px !important;
+  }
+}
+
+.boton-card {
+  align-items: center !important;
+  background-color: #0a66c2 !important;
+  border: 0 !important;
+  border-radius: 100px !important;
+  box-sizing: border-box !important;
+  color: #ffffff !important;
+  cursor: pointer !important;
+  display: inline-flex !important;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  justify-content: center !important;
+  line-height: 20px !important;
+  max-width: 480px !important;
+  min-height: 40px !important;
+  min-width: 0px !important;
+  overflow: hidden !important;
+  padding: 5px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  text-align: center !important;
+  touch-action: manipulation !important;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  vertical-align: middle !important;
+}
+
+.boton-card:hover,
+.boton-card:focus {
+  background-color: #16437e !important;
+  color: #ffffff !important;
+}
+
+.boton-card:active {
+  background: #09223b !important;
+  color: rgb(255, 255, 255, 0.7) !important;
+}
+
+.boton-card:disabled {
+  cursor: not-allowed !important;
+  background: rgba(0, 0, 0, 0.08) !important;
+  color: rgba(0, 0, 0, 0.3) !important;
+}
